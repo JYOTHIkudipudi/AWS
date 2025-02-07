@@ -1,29 +1,46 @@
+# **AWS – Learning & Notes ☁️**  
 
-# Kubernetes Projects and Deployments
+Welcome to my **AWS repository**! This is where I document my AWS learning journey, covering key services, concepts, and best practices.  
 
-Welcome to the `kubernetes` repository!  This repository contains a collection of Kubernetes projects, deployment manifests, and configurations designed for automating, scaling, and managing containerized applications, including:
+## **📌 What You’ll Find Here**  
+- **AWS Core Services** – Compute, Storage, Networking, and Security.  
+- **Infrastructure as Code (IaC)** – Automating AWS infrastructure with Terraform & CloudFormation.  
+- **AWS Best Practices** – Security, cost optimization, and performance tuning.  
 
-- Deployment manifests
-- Service configurations
-- Helm charts
-- Namespace definitions
-- Ingress rules
-- ConfigMaps and Secrets
-- StatefulSets, DaemonSets, and Jobs
-- Kubernetes best practices and examples
+---
 
-## Contents
+## **☁️ AWS Services Overview**  
 
-1. **Projects**: Organized directories for each project with YAML files.
-2. **Deployment Files**: Includes:
-   - `deployments/`: Deployment configurations
-   - `services/`: Service definitions for exposing workloads
-   - `ingress/`: Ingress rules for routing traffic
-3. **Helm Charts**: Reusable templates for complex Kubernetes setups.
-4. **Utilities**: Scripts and tools for managing Kubernetes clusters.
+### **🖥 Compute Services**  
+- **EC2 (Elastic Compute Cloud)** – Virtual machines in AWS.  
+- **Lambda** – Serverless computing that runs code on demand.  
+- **ECS (Elastic Container Service)** – Docker container management.  
+- **EKS (Elastic Kubernetes Service)** – Managed Kubernetes on AWS.  
 
-## Usage
+### **💾 Storage Services**  
+- **S3 (Simple Storage Service)** – Scalable object storage for files, backups, and static content.  
+- **EBS (Elastic Block Store)** – Storage volumes for EC2 instances.  
+- **EFS (Elastic File System)** – Scalable file storage for multiple EC2 instances.  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/JYOTHIkudipudi/kubernetes.git
+### **📡 Networking & Security**  
+- **VPC (Virtual Private Cloud)** – Private cloud environment within AWS.  
+- **IAM (Identity and Access Management)** – User authentication and permissions.  
+- **Route 53** – AWS DNS and domain management service.  
+- **CloudFront** – Content delivery network (CDN) for faster global access.  
+
+### **🛠 Infrastructure as Code (IaC) & Automation**  
+- **Terraform** – Automating AWS infrastructure using code.  
+- **AWS CloudFormation** – AWS-native IaC tool for managing infrastructure as templates.  
+
+### **📊 Monitoring & Logging**  
+- **CloudWatch** – Monitoring and alerts for AWS resources.  
+- **AWS Config** – Tracks AWS resource configurations and changes.  
+- **CloudTrail** – Logs AWS API activity for security and auditing.  
+
+---
+
+## **📚 Learning Resources**  
+If you’re also learning AWS, here are some great resources:  
+- 📘 **AWS** – [(https://aws.amazon.com/console/)}  
+---
+
